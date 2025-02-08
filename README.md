@@ -14,18 +14,17 @@ The ETL (Extract, Transform, Load) pipeline is automated and scalable, allowing 
 
 ## Project Structure
 API_to_SQL/
-│
-├── etl_pipeline/                   # Folder containing the ETL pipeline scripts
+- ***etl_pipeline/                   # Folder containing the ETL pipeline scripts
 │   ├── extract.py                  # Data extraction script
 │   ├── transform.py                # Data transformation script
 │   ├── load.py                     # Data loading script
 │   └── main.py                     # Main script to run the entire ETL pipeline
 │
-├── data/                           # Folder for storing raw and processed data
+- ***data/                           # Folder for storing raw and processed data
 │   └── netflix_data.csv            # CSV file containing Netflix movie and TV show data
 │
-├── visualizations/                 # Folder for storing visualizations
+- ***visualizations/                 # Folder for storing visualizations
 │   └── rating_trends.png           # Example chart visualizing ratings trends
 │
-├── tests/                          # Folder for test scripts
+- ***tests/                          # Folder for test scripts
 │   └── test_transform.py           # Unit tests for the transform process
